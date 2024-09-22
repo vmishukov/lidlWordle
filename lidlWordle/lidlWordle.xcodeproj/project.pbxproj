@@ -6,30 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		918641322C9EFEA40018C7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9186412A2C9EFEA40018C7AF /* Assets.xcassets */; };
+		918641342C9EFEA40018C7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186412D2C9EFEA40018C7AF /* LaunchScreen.storyboard */; };
+		918641352C9EFEA40018C7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641292C9EFEA40018C7AF /* AppDelegate.swift */; };
+		918641362C9EFEA40018C7AF /* lidlWordle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9186412E2C9EFEA40018C7AF /* lidlWordle.xcdatamodeld */; };
+		918641372C9EFEA40018C7AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186412F2C9EFEA40018C7AF /* SceneDelegate.swift */; };
+		918641412C9F23D30018C7AF /* MainMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641402C9F23D30018C7AF /* MainMenuPresenter.swift */; };
+		918641432C9F24010018C7AF /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641422C9F24010018C7AF /* MainMenuView.swift */; };
+		918641482C9F28140018C7AF /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641472C9F28140018C7AF /* MainMenuViewController.swift */; };
+		9186414B2C9FDD420018C7AF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186414A2C9FDD420018C7AF /* GameViewController.swift */; };
+		9186414D2C9FDD4F0018C7AF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186414C2C9FDD4F0018C7AF /* GameView.swift */; };
+		9186414F2C9FDD5A0018C7AF /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186414E2C9FDD5A0018C7AF /* GamePresenter.swift */; };
+		918641562C9FE1220018C7AF /* GameCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641552C9FE1220018C7AF /* GameCollectionView.swift */; };
+		918641582C9FE5DA0018C7AF /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918641572C9FE5DA0018C7AF /* GameCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		918641292C9EFEA40018C7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9186412A2C9EFEA40018C7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9186412B2C9EFEA40018C7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9186412C2C9EFEA40018C7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9186412F2C9EFEA40018C7AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		918641312C9EFEA40018C7AF /* lidlWordle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lidlWordle.xcdatamodel; sourceTree = "<group>"; };
+		918641402C9F23D30018C7AF /* MainMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuPresenter.swift; sourceTree = "<group>"; };
+		918641422C9F24010018C7AF /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		918641472C9F28140018C7AF /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		9186414A2C9FDD420018C7AF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9186414C2C9FDD4F0018C7AF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9186414E2C9FDD5A0018C7AF /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		918641552C9FE1220018C7AF /* GameCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionView.swift; sourceTree = "<group>"; };
+		918641572C9FE5DA0018C7AF /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
 		91CE62B92C9EF38F003A247F /* lidlWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lidlWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		91CE62CE2C9EF391003A247F /* Exceptions for "lidlWordle" folder in "lidlWordle" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 91CE62B82C9EF38F003A247F /* lidlWordle */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		91CE62BB2C9EF38F003A247F /* lidlWordle */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				91CE62CE2C9EF391003A247F /* Exceptions for "lidlWordle" folder in "lidlWordle" target */,
-			);
-			path = lidlWordle;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		91CE62B62C9EF38F003A247F /* Frameworks */ = {
@@ -42,10 +51,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		918641302C9EFEA40018C7AF /* lidlWordle */ = {
+			isa = PBXGroup;
+			children = (
+				918641382C9EFEBB0018C7AF /* MainMenu */,
+				918641492C9FDD1D0018C7AF /* Game */,
+				918641292C9EFEA40018C7AF /* AppDelegate.swift */,
+				9186412A2C9EFEA40018C7AF /* Assets.xcassets */,
+				9186412D2C9EFEA40018C7AF /* LaunchScreen.storyboard */,
+				9186412E2C9EFEA40018C7AF /* lidlWordle.xcdatamodeld */,
+				9186412B2C9EFEA40018C7AF /* Info.plist */,
+				9186412F2C9EFEA40018C7AF /* SceneDelegate.swift */,
+			);
+			path = lidlWordle;
+			sourceTree = "<group>";
+		};
+		918641382C9EFEBB0018C7AF /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				918641502C9FDF830018C7AF /* View */,
+				918641512C9FDF8D0018C7AF /* Presenter */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		918641492C9FDD1D0018C7AF /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				918641522C9FDF950018C7AF /* View */,
+				918641532C9FDFAB0018C7AF /* Presenter */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		918641502C9FDF830018C7AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				918641422C9F24010018C7AF /* MainMenuView.swift */,
+				918641472C9F28140018C7AF /* MainMenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		918641512C9FDF8D0018C7AF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				918641402C9F23D30018C7AF /* MainMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		918641522C9FDF950018C7AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9186414A2C9FDD420018C7AF /* GameViewController.swift */,
+				9186414C2C9FDD4F0018C7AF /* GameView.swift */,
+				918641542C9FE10E0018C7AF /* GameCollectionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		918641532C9FDFAB0018C7AF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9186414E2C9FDD5A0018C7AF /* GamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		918641542C9FE10E0018C7AF /* GameCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				918641552C9FE1220018C7AF /* GameCollectionView.swift */,
+				918641572C9FE5DA0018C7AF /* GameCollectionViewCell.swift */,
+			);
+			path = GameCollectionView;
+			sourceTree = "<group>";
+		};
 		91CE62B02C9EF38F003A247F = {
 			isa = PBXGroup;
 			children = (
-				91CE62BB2C9EF38F003A247F /* lidlWordle */,
+				918641302C9EFEA40018C7AF /* lidlWordle */,
 				91CE62BA2C9EF38F003A247F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,9 +158,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				91CE62BB2C9EF38F003A247F /* lidlWordle */,
 			);
 			name = lidlWordle;
 			packageProductDependencies = (
@@ -122,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918641322C9EFEA40018C7AF /* Assets.xcassets in Resources */,
+				918641342C9EFEA40018C7AF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +217,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9186414B2C9FDD420018C7AF /* GameViewController.swift in Sources */,
+				918641582C9FE5DA0018C7AF /* GameCollectionViewCell.swift in Sources */,
+				918641482C9F28140018C7AF /* MainMenuViewController.swift in Sources */,
+				918641432C9F24010018C7AF /* MainMenuView.swift in Sources */,
+				918641412C9F23D30018C7AF /* MainMenuPresenter.swift in Sources */,
+				918641352C9EFEA40018C7AF /* AppDelegate.swift in Sources */,
+				9186414F2C9FDD5A0018C7AF /* GamePresenter.swift in Sources */,
+				918641362C9EFEA40018C7AF /* lidlWordle.xcdatamodeld in Sources */,
+				9186414D2C9FDD4F0018C7AF /* GameView.swift in Sources */,
+				918641562C9FE1220018C7AF /* GameCollectionView.swift in Sources */,
+				918641372C9EFEA40018C7AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9186412D2C9EFEA40018C7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186412C2C9EFEA40018C7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		91CE62D02C9EF391003A247F /* Debug */ = {
@@ -149,7 +256,6 @@
 				INFOPLIST_FILE = lidlWordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -176,7 +282,6 @@
 				INFOPLIST_FILE = lidlWordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +438,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9186412E2C9EFEA40018C7AF /* lidlWordle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				918641312C9EFEA40018C7AF /* lidlWordle.xcdatamodel */,
+			);
+			currentVersion = 918641312C9EFEA40018C7AF /* lidlWordle.xcdatamodel */;
+			path = lidlWordle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91CE62B12C9EF38F003A247F /* Project object */;
 }
